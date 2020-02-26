@@ -1,0 +1,16 @@
+<div class="jumbotron">
+  <h1 class="display-4">{{stock.companyName}}({{stock.symbol}})</h1>
+  <div class="lead">
+    <strong>Latest Price:&nbsp;</strong><span>{{stock.latestPrice}}$</span><br>
+    <strong>Previous Close:&nbsp;</strong><span>{{stock.previousClose}}$</span><br>
+    <strong>Percent Change:&nbsp;</strong><span>{{stock.changePercent}}%</span><br>
+    <strong>Market Cap:&nbsp;</strong><span>{{stock.marketCap}}$</span><br>
+    <strong>YTD Change:&nbsp;</strong><span>{{stock.ytdChange}}%</span><br>
+    <strong>52 Week High:&nbsp;</strong><span>{{stock.week52High}}</span><br>
+    <strong>52 Week Low:&nbsp;</strong><span>{{stock.week52Low}}</span><br>
+  </div>
+</div>
+
+{{!-- {{#each stock}}
+    {{@key}} : {{this}} <br>
+{{/each}} --}}
